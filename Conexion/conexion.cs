@@ -12,8 +12,8 @@ public class conexion
 
     public conexion()
     {
-         DBtest = "Data Source=gpstestsql.database.windows.net; Initial Catalog=YoVendoSaldotest; User=gats-admin; Password=gpspro@2015*";
-         DBProd = "Data Source=gpsprodsql.database.windows.net; Initial Catalog=PagaTodo; User=gats-admin; Password=globalpay*12";
+         DBtest = "Data Source=; Initial Catalog=; User=; Password=";
+         DBProd = "Data Source=; Initial Catalog=; User=; Password=";
     }
 
     public SqlConnection CrearConexion()
